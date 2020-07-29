@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 :root {
@@ -13,6 +13,12 @@
     --white: #fff;
     --frontEnd: #6bd1ff;
     --backEnd: #00c86f;
+}
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
 }
 
 body {
